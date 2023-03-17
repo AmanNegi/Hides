@@ -1,7 +1,7 @@
 function NavBar() {
   return (
     <>
-      <section className=" h-[8vh] w-[100%] bg-white shadow-sm flex flex-row justify-evenly items-center px-2">
+      <section className=" h-[8vh] w-[100%] hidden bg-white shadow-sm lg:flex flex-row justify-evenly items-center px-2">
         <TopBarLink name="Men" />
         <TopBarLink name="Women" />
         <TopBarLink name="Casuals" />
@@ -14,7 +14,10 @@ function NavBar() {
 
 function TopBarLink({ name, goTo }) {
   return (
-    <a href="#" className="hover:text-accentColor text-[#00000084] p-4 font-bold">
+    <a
+      href="#"
+      className="hover:text-accentColor text-[#00000084] p-4 font-bold"
+    >
       {name.toUpperCase()}
     </a>
   );

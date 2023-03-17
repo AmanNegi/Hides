@@ -10,23 +10,27 @@ const Form = () => {
         </p>
         <div className="h-[4vh]"></div>
 
-        <div className="h-[15vh] text-darkColor flex flex-row justify-evenly items-end p-5">
-          <div className="text-start w-1/4 ">
+        <div className="text-darkColor flex flex-col lg:flex-row justify-evenly items-center lg:items-end p-5 ">
+          <div className="text-start w-[100%] lg:w-[30vw]">
             <label htmlFor="input">Email</label>
             <input
               type="text"
               placeholder="Your email address"
-              className=" w-[100%] h-[6vh] mt-2 border-2 outline-none hidden lg:block border-white focus:border-darkColor focus:rounded-lg focus:outline-none px-2 transition-all "
+              className="bg-white w-[100%] h-[6vh] mt-2 border-2 outline-none border-white focus:border-darkColor focus:rounded-lg focus:outline-none px-2 transition-all "
             ></input>
           </div>
-          <div className="text-start w-1/4 ">
-            <label htmlFor="input">I'm interested in</label>
+          <div className="w-0 h-[2vh] lg:w-[2vw] lg:h-0"></div>
+          <div className="text-start w-[100%] lg:w-[30vw]">
+            <label htmlFor="input" className="text-sm lg:text-base">
+              I'm interested in
+            </label>
             <input
               type="text"
               placeholder="Men"
-              className=" w-[100%]  h-[6vh] mt-2 border-2 outline-none hidden lg:block border-white focus:border-darkColor focus:rounded-lg focus:outline-none px-2 transition-all "
+              className="bg-white w-[100%] h-[6vh] mt-2 border-2 outline-none border-white focus:border-darkColor focus:rounded-lg focus:outline-none px-2 transition-all "
             ></input>
           </div>
+          <div className="h-5"></div>
           <button className="bg-darkColor text-white font-semibold text-lg px-8 h-[6vh]">
             Subscribe
           </button>
