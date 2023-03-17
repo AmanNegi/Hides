@@ -27,5 +27,5 @@ To use Hides, follow these steps:
 
 ## Authors
 > Designed By: Himanshu Negi
- </br>
- Developed By: Aman Negi
+
+> Developed By: Aman Negi
