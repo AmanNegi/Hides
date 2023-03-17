@@ -9,6 +9,7 @@
 
 A simple application created using React and TailwindCSS. This app was created as practice while I was learning and exploring different ways to design in web development.
 
+![](preview/preview.gif)
 
 ## Installation
 
