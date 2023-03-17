@@ -1,5 +1,4 @@
-<h1 style="text-align: center;">Hides</h1>
-
+# [Hides](https://hides.netlify.app/)
 <div style="display:flex; flex-direction: row; justify-content: center; align-items: center">
 
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" style="padding: 0.5rem" alt="React Logo"/>
@@ -8,7 +7,7 @@
 
 </div>
 
-A simple design created using React and TailwindCSS. This design was created as practice while I was learning and exploring different ways to design in web development.
+A simple application created using React and TailwindCSS. This app was created as practice while I was learning and exploring different ways to design in web development.
 
 
 ## Installation
